@@ -5,7 +5,7 @@ import { MdQuestionMark } from "react-icons/md";
 export default function ResourceCard({ data }) {
   return (
     <div className="bg-white p-7 rounde-md mb-8 text-gray-500">
-      <h1 className="text-3xl mb-3 font-semibold text-gray-600">{data.title}</h1>
+      <h1 className="text-3xl mb-3 font-medium text-gray-600">{data.title}</h1>
       <div className="flex items-center gap-7 mb-3 font-semibold">
         <div className="flex items-center gap-3">
           <CiCalendarDate className="text-3xl -mt-[3px]" />
